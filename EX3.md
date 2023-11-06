@@ -1,6 +1,7 @@
 # EX 3 SubQueries, Views and Joins 
-
-
+## DATE : 17/8/23
+## AIM:
+To create Subqueries, Views and Joins
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -187,7 +188,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
    ## Right join
   ![Screenshot 2023-09-27 094432](https://github.com/Nagul71/EX-3-SubQueries-Views-and-Joins/assets/118661118/dcc24099-0fdd-404b-b81d-ea86de5cc8f9)
 
-### OUTPUT:
+## OUTPUT:
    ## Left Join
 ![Screenshot 2023-09-27 094200](https://github.com/Nagul71/EX-3-SubQueries-Views-and-Joins/assets/118661118/bfa8a83b-9e86-4924-895c-05fbe6346506)
 
@@ -195,3 +196,6 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 
    ## Right Join
  ![Screenshot 2023-09-27 094335](https://github.com/Nagul71/EX-3-SubQueries-Views-and-Joins/assets/118661118/7fe7c05b-ca77-4da2-9ab9-38a5f50a4879)
+
+ ## RESULT
+ Thus,the Subqueries,Views and Joins are created.
